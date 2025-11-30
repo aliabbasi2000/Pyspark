@@ -8,7 +8,7 @@ A station is considered **critical** when its number of free slots is
 
 The analysis uses two datasets: 
 - `register.csv`: timestamped readings
-of used and free slots for each station\
+of used and free slots for each station
 - `stations.csv`: station coordinates and names
 
 The Spark application: - Computes criticality for each (station,
@@ -24,12 +24,12 @@ visualization
 The Spark application was executed on the **Polito BigData Cluster**
 using:
 
--   **Server Options:** Bigdata Education Reserved\
+-   **Server Options:** Bigdata Education Reserved
 -   **Allocated Resources:**
-    -   4 CPU Threads\
-    -   16 GB Memory\
+    -   4 CPU Threads
+    -   16 GB Memory
 -   **Maximum Possible Resources:**
-    -   16 CPU Threads\
+    -   16 CPU Threads
     -   32 GB Memory
 
 ------------------------------------------------------------------------
